@@ -1,0 +1,11 @@
+{
+  "name": "python-3.12",
+  // Python ランタイムは “features” で追加するのが推奨
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  // ここで Typer / pytest をインストール
+  "postCreateCommand": "pip install --upgrade pip && pip install typer[all] pytest"
+}
