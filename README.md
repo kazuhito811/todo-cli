@@ -10,7 +10,7 @@
 ---
 
 ## ✨ Features
-- **Instant setup** – `pip install todo-cli` で即利用  
+- **Instant setup** – `pip install todo-cli-kazuhito0811` で即利用  
 - **Persistent storage** – タスクを `~/.todo_cli.json` に自動保存  
 - **Colorful output** – 完了時にグリーン表示  
 - Python 3.10+ / Windows・macOS・Linux で動作
